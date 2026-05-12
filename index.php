@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">zayyan</a>
+
+        <nav>
+            <a href="index.php" class="active"> Home</a>
+            <a href="jeck.php" >project</a>
+            <a href="prestasi.php" >achievement</a>
+            <a href="edukasi.php" >Education</a>
+            <a href="https://wa.me/6287790940608?text=Halo,%20mukamu%20kok%20mirip%20stiker%20dimana%20logikanya" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpeg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>halo aku<span>zayyan</span></h1>
+            <h3 class="typing-text">aku seorang<span></span></h3>
+            <p>halo namaku zayyan, saya seorang siswa SMA di SMKN 5 Malang </p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@iyan1038-cj2vi"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://github.com/iyan1038"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/6287790940608?text=Halo,%20iki%20wong%20jowo%20tulen%20ta?"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com/zayyan1038"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="https://wa.me/6287790940608?text=Halo,%20mukamu%20kok%20mirip%20stiker%20dimana%20logikanya?" class="btn">contact me</a>
+        </div>
+    </section>
+</body>
+</html>
