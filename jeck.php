@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <header>
+        <a href="#" class="logo">zayyan</a>
+
+        <nav>
+            <a href="main.php" > Home</a>
+            <a href="jeck.php" class="active">project</a>
+            <a href="prestasi.php" >achievement</a>
+            <a href="edukasi.php" >Education</a>
+            <a href="https://wa.me/6287790940608?text=Halo,%20mukamu%20kok%20mirip%20stiker%20dimana%20logikanya" >Contact</a>
+        </nav>
+    </header>
+        <section class="edu">
+        <div class="home-content">
+
+    <h1>projects</h1>
+    <div class="home-content">
+        <div class="container">
+  <div class="row">
+    
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Screenshot 2025-06-14 233606.png" width="300" height="200" class="card-img-top">
+
+        <div class="card-body">
+          <p>projek membuat aplikasi assisten sederhana menggunakan python untuk ujian praktik madrasah (ui belum jadi)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="nugas lagi.png" width="300" height="200" class="card-img-top">
+        <div class="card-body">
+          <p>tugas sekolah membuat game sederhana dengan construct 2</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="berira.png" width="300" height="200" class="card-img-top">
+        <div class="card-body">
+          <p>tugas membuat website berita menggunakan flutter</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+    </section>
+</body>
+</html>
