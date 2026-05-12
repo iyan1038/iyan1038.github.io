@@ -16,7 +16,7 @@
         <a href="#" class="logo">zayyan</a>
 
         <nav>
-            <a href="main.php" > Home</a>
+            <a href="index.html" > Home</a>
             <a href="jeck.php" class="active">project</a>
             <a href="prestasi.php" >achievement</a>
             <a href="edukasi.php" >Education</a>
