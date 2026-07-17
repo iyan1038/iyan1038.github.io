@@ -275,6 +275,26 @@ span{
         font-size: 5rem;
     }
 
+    #menu-icon {
+    display: none;
+}
+
+@media(max-width:995px){
+    /* Munculkan ikon di layar kecil */
+    #menu-icon {
+        display: block;
+    }
+    
+    nav{
+        position: absolute;
+        display: none; 
+        /* ubah top agar tidak tertutup header, misalnya: */
+        top: 100%; 
+        /* ... sisa kode nav Anda ... */
+    }
+    /* ... */
+}
+
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
