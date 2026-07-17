@@ -11,6 +11,7 @@
 <body>
     <header>
         <a href="#" class="logo">zayyan</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav>
             <a href="index.html"class="active" > Home</a>
@@ -37,5 +38,15 @@
             <a href="https://wa.me/6287790940608?text=Halo,%20mukamu%20kok%20mirip%20stiker%20dimana%20logikanya?" class="btn">contact me</a>
         </div>
     </section>
+        <script>
+        let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('nav');
+
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('fa-xmark'); // Opsional: mengubah ikon jadi X saat diklik
+            navbar.classList.toggle('active');
+        };
+    </script>
+s
 </body>
 </html>
