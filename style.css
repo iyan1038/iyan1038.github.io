@@ -280,7 +280,7 @@ span{
 }
 
 @media(max-width:995px){
-    /* Munculkan ikon di layar kecil */
+    
     #menu-icon {
         display: block;
     }
@@ -288,15 +288,15 @@ span{
     nav{
         position: absolute;
         display: none; 
-        /* ubah top agar tidak tertutup header, misalnya: */
+        
         top: 100%; 
-        /* ... sisa kode nav Anda ... */
+        
     }
     /* ... */
 }
 
     .home-img img{
-        width: 70vw;
+        width: 100vw;
         margin-top: 4rem;
     }
 }
